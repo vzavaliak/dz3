@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <style>
+            .fether {
+                width: 800px;
+                height: 600px;
+                background: silver;
+                margin: 0 auto;
+            }
+
+            .box1 {
+                width: 800px;
+                height: 200px;;
+            }
+
+            .box2 {
+                width: 600px;
+                height: 400px;
+
+            }
+
+            .box3 {
+                width: 200px;
+                height: 400px;
+
+            }
+
+            .box4 {
+                width: 600px;
+                height: 200px;
+            }
+
+            .box5 {
+                width: 200px;
+                height: 200px;
+            }
+
+            .flex {
+                display: flex;
+                justify-content: left;
+
+            }
+
+            .tomato {
+                background: tomato;
+            }
+
+            .blue {
+                background: cornflowerblue;
+            }
+
+            .red {
+                background: orangered;
+            }
+
+            .green {
+                background: forestgreen;
+            }
+            .yelow{
+                background: gold;
+            }
+            .pink{
+                background: deeppink;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>1</h1>
+        <div class="fether">
+            <div class="box1 tomato"></div>
+            <div class="flex">
+                <div class="box2 blue"></div>
+                <div class="box3 red"></div>
+            </div>
+        </div>
+        <h2>2</h2>
+        <div class="fether">
+            <div class="box1 tomato"></div>
+            <div class="flex">
+
+                <div class="box2 blue">
+                    <div class="box4 green"></div>
+                    <div class="flex">
+                        <div class="box5 tomato"></div>
+                        <div class="box5 red"></div>
+                        <div class="box5 yelow"></div>
+                    </div>
+                </div>
+
+                <div class="box3 red"></div>
+            </div>
+
+        </div>
+
+        <h2>3</h2>
+        <div class="fether">
+            <div class="box1 tomato"></div>
+            <div class="flex">
+                <div class="box2 blue">
+                    <div class="flex">
+                        <div class="box5 yelow"></div>
+                        <div class="box5 red"></div>
+                        <div class="box5 green"></div>
+                    </div>
+                    <div class="flex">
+                        <div class="box5 tomato"></div>
+                        <div class="box5 blue"></div>
+                        <div class="box5 pink"></div>
+                    </div>
+                </div>
+                <div class="box3 red"></div>
+            </div>
+        </div>
+
+    </body>
+</html>
